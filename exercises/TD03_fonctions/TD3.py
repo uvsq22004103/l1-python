@@ -19,4 +19,5 @@ def secondeEnTemps(seconde):
     return (jour, heure, minute, seconde)
     
 temps = secondeEnTemps(100000)
-print(temps[0],"jours",temps[1],"heures",temps[2],"minutes",temps[3],"secondes")
+print(temps[0],"jours",temps[1],"heures",temps[2],"minutes",temps[3],"secondes")flake8 
+
