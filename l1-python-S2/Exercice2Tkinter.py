@@ -59,7 +59,7 @@ racine = tk.Tk()
 canvas = tk.Canvas(racine, bg="black", width=600, height=400)
 canvas.grid()
 balle = creer_balle()
-bouton = tk.Button(racine, text="Démarrer", command=lambda: start(balle))
+bouton = tk.Button(racine, text="Démarrer", command = lambda : start(balle))
 bouton.grid()
 
 racine.mainloop()
